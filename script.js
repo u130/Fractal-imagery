@@ -18,16 +18,16 @@ right(90);
 forward(40);
 }
 
-function square(x){
-forward(x);
+function square(length){
+forward(length);
 right(90);
-forward(x);
+forward(length);
 right(90);
-forward(x);
+forward(length);
 right(90);
-forward(x);
+forward(length);
 right(90);
-forward(x);
+forward(length);
 }
 
 function rectangle(){
@@ -41,14 +41,14 @@ forward(190);
 left(90);
 }
 
-function rectangle(x){
-forward(x);
+function rectangle(length, width){
+forward(length);
 left(90);
-forward(190);
+forward(width);
 left(90);
-forward(x);
+forward(length);
 left(90);
-forward(190);
+forward(width);
 left(90);
 }
 
@@ -69,21 +69,21 @@ right(60);
 forward(30);
 }
 
-function hexagon(x){
+function hexagon(length){
 right(60);
-forward(x);
+forward(length);
 right(60);
-forward(x);
+forward(length);
 right(60);
-forward(x);
+forward(length);
 right(60);
-forward(x);
+forward(length);
 right(60);
-forward(x);
+forward(length);
 right(60);
-forward(x);
+forward(length);
 right(60);
-forward(x);
+forward(length);
 }
 
 function pentagon(){
@@ -99,17 +99,17 @@ left(72);
 forward(30);
 }
 
-function pentagon(x){
+function pentagon(length){
 left(18);
-forward(x);
+forward(length);
 left(72);
-forward(x);
+forward(length);
 left(72);
-forward(x);
+forward(length);
 left(72);
-forward(x);
+forward(length);
 left(72);
-forward(x);
+forward(length);
 }
 
 function triangle(){
@@ -121,13 +121,13 @@ right(120);
 forward(30);
 }
 
-function triangle(x){
+function triangle(length){
 right(120);
-forward(x);
+forward(length);
 right(120);
-forward(x);
+forward(length);
 right(120);
-forward(x);
+forward(length);
 }
 
 function house(){
@@ -158,6 +158,12 @@ forward(x);
 
 // Type your function call below
 
-triangle(190);
+
+
+
+
+
+
+rectangle(190, 120);
 stamp();
 
