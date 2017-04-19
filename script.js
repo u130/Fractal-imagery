@@ -7,6 +7,7 @@
 TinyTurtle.apply(window, [undefined, 400, 400]);
 
 function square(length){
+    
 forward(length);
 right(90);
 forward(length);
@@ -83,16 +84,24 @@ right(90);
 forward(x);
 right(90);
 forward(x);
+right(60);
+
 }
 
 // Type your function call below
 
+for( i =0; i<6; i=i+1) {
+    
+    
+    
 
 
 
 
 
 
-rectangle(100, 100);
-stamp();
+house(100, 100);
+right(30);
 
+
+}
